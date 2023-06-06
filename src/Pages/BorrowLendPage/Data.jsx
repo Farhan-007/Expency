@@ -22,7 +22,7 @@ export default function Data({ props }) {
     }
 
     return (
-        <div>
+        <>
             {
                 data[0].map((data, index) => {
                     return (
@@ -68,6 +68,6 @@ export default function Data({ props }) {
                     )
                 })
             }
-        </div>
+        </>
     )
 }
