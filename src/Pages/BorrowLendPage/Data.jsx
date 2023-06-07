@@ -39,7 +39,7 @@ export default function Data({ props }) {
                                     {data.status || '-'}
                                 </div>
 
-                                <div className="flex w-[100%] justify-between items-center " >
+                                <div className="flex w-[100%] justify-between items-center  " >
                                     <div className='flex w-[100%]'>
                                         <div className=' pr-8'>
                                             {data.dueDate.slice(0, 10) || '-/-/-'}
