@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Data from './Data';
 import './Style.css'
 let debtData = JSON.parse(localStorage.getItem("debtData")) || [];
@@ -38,12 +38,12 @@ const Borrow = () => {
     }
 
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        console.log(date);
+    //     console.log(date);
         
 
-    }, [debtData])
+    // }, date)
 
 
     const borrow = () => {

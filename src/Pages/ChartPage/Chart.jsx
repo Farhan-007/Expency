@@ -5,8 +5,8 @@ chartjs.register(
     Title, Tooltip, LineElement, Legend, CategoryScale, LinearScale, PointElement, Filler
 )
 let chartData = JSON.parse(localStorage.getItem("chartData")) || {
-    amount : [0],
-    time : ['00:00:00']
+    amount: [0],
+    time: ['00:00:00']
 };
 const Graph = () => {
 
@@ -28,6 +28,7 @@ const Graph = () => {
             }
         ]
     })
+    console.log(setData)
 
     return (
         <>
