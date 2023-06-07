@@ -14,7 +14,6 @@
 
 
 // const Buttons = () => {
-
 //     return (
 //         <>
 //             <div className=" text-white flex items-center md:w-[60%] w-[90%] md:px-0 px-5 justify-around ">

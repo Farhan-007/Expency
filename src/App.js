@@ -2,7 +2,7 @@ import Home from "./Pages/HomePage";
 import { Route, Routes, HashRouter } from "react-router-dom";
 import CommonContainer from "./CommonContainer";
 import History from "./Pages/History";
-import Borrow from "./Pages/BorrowPage";
+import Borrow from "./Pages/BorrowLendPage";
 import Login from "./Pages/LoginPage";
 import Account from "./Pages/Account";
 let usersData = JSON.parse(localStorage.getItem("usersData"));
