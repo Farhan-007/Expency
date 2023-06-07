@@ -28,17 +28,19 @@ const Borrow = () => {
 
     const handleContactChange = (event) => {
         setContact(event.target.value)
+        console.log(contact)
     }
 
 
     const handleDateChange = (event) => {
         setDate(event.target.value)
+        console.log(date)
     }
 
 
     useEffect(() => {
 
-        console.log(debtData);
+        console.log(date);
         
 
     }, [debtData])
